@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">WeatherAppv2</string>
+
+    <string-array name="locations">
+        <item>Select a Location</item>
+        <item>London</item>
+        <item>Detroit</item>
+        <item>Sydney</item>
+        <item>Miami</item>
+        <item>Juneau</item>
+    </string-array>
+</resources>

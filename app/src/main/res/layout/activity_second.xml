@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/locationID"
+        android:layout_width="225dp"
+        android:layout_height="72dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="93dp"
+        android:layout_marginRight="93dp"
+        android:gravity="center"
+        android:textSize="48sp" />
+
+    <TextView
+        android:id="@+id/tempMainID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="152dp"
+        android:layout_marginRight="152dp"
+        android:gravity="center"
+        android:textSize="70sp" />
+
+    <TextView
+        android:id="@+id/tempLowMainID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="145dp"
+        android:layout_marginEnd="277dp"
+        android:layout_marginRight="277dp"
+        android:gravity="center"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tempHighMainID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="144dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:gravity="center"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/todayWeatherID"
+        android:layout_width="88dp"
+        android:layout_height="75dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="313dp"
+        android:layout_marginRight="313dp"
+        android:text="Today's Weather     F°"
+        android:textSize="18sp" />
+
+
+
+    <TextView
+        android:id="@+id/descriptionMainID"
+        android:layout_width="280dp"
+        android:layout_height="37dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="64dp"
+        android:gravity="center"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/oneDayAfterWeatherID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="246dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="-60dp"
+        android:text="2020-04-15: 56° | High 76° | Low 44° | Scattered skys "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/twoDayAfterWeatherID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="309dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginRight="3dp"
+        android:text="2020-04-15: 56° | High 76° | Low 44° | Scattered skys "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/threeDayAfterWeatherID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="369dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:text="2020-04-15: 56° | High 76° | Low 44° | Scattered skys "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/fourDayAfterWeatherID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="435dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginRight="14dp"
+        android:text="2020-04-15: 56° | High 76° | Low 44° | Scattered skys "
+        android:textSize="18sp" />
+
+
+</RelativeLayout>
